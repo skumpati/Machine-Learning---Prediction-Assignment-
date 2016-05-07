@@ -123,7 +123,7 @@ Plot the relationship between features and outcome. From the plot below, each fe
 featurePlot(train, outcome.org, "strip")
 ```
 
-(https://github.com/skumpati/Machine-Learning---Prediction-Assignment-/blob/master/Figures/unnamed-chunk-9-1.png)
+![alt tag](https://github.com/skumpati/Machine-Learning---Prediction-Assignment-/blob/master/Figures/unnamed-chunk-9-1.png)
 
 #### Plot of correlation matrix  
 
@@ -134,7 +134,7 @@ corrplot.mixed(cor(train), lower="circle", upper="color",
                tl.pos="lt", diag="n", order="hclust", hclust.method="complete")
 ```
 
-(https://github.com/skumpati/Machine-Learning---Prediction-Assignment-/blob/master/Figures/unnamed-chunk-10-1.png)
+![alt tag](https://github.com/skumpati/Machine-Learning---Prediction-Assignment-/blob/master/Figures/unnamed-chunk-10-1.png)
 
 #### tSNE plot 
 
@@ -189,7 +189,7 @@ g = ggplot(embedding, aes(x=V1, y=V2, color=Class)) +
 print(g)
 ```
 
-(https://github.com/skumpati/Machine-Learning---Prediction-Assignment-/blob/master/Figures/unnamed-chunk-11-1.png)
+![alt tag](https://github.com/skumpati/Machine-Learning---Prediction-Assignment-/blob/master/Figures/unnamed-chunk-11-1.png)
 
 
 ### Build machine learning model 
